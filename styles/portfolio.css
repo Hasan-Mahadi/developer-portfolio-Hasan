@@ -101,7 +101,7 @@ main {
 
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 
@@ -114,22 +114,47 @@ main {
 .about-info-container {
     display: flex;
     justify-content: space-around;
-   
-    
+
+
 }
 
 .about .info-title {
     font-size: 20px;
     color: #474747;
-  
-  
+
+
 
 }
 
-.info-description {
+.info-description {}
+
+/* what i do styles*/
+.what-i-do {
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
     font-weight: 700;
     font-size: 20px;
-    color: #474747;
-    
-    
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/*resume styles*/
+.Rusume{
+    margin-top: 130px;
+    margin-bottom: 90px;
 }
